@@ -24,7 +24,7 @@ row_num = range(0,len(piles))
 
 for n in row_num:
     final_board +=(f"{n}: ")
-    stones_in_row = range(2,piles[n])
+    stones_in_row = range(1, random.randint(2, 9))
     for n in stones_in_row:
         final_board += ("O " )
     final_board += "\n"
@@ -34,5 +34,4 @@ for i in range(dash):
     final_board += ("_ ")
 
 print(final_board)
-
 
