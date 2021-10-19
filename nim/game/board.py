@@ -17,12 +17,14 @@ class Board():
         2: O O O O O O
         3: O O O O
         4: O O O O O O O O
+
+        return the board
         '''
         pass
 
     def apply(self, move):
             '''
-            this def tells what row and how many to remove.
+            this def tells what row and how many to remove. move will have two numbers the first is what row and the second is how many "O's" to remove. 
             
             '''
             pass
