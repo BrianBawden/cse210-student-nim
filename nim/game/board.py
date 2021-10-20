@@ -21,6 +21,7 @@ class Board:
             text += (f"\n{pile}: " + "O " * stones)
         text += "\n- - - - - - - - - - - - - - "
         return text
+        
     def _prepare(self):
 
         piles = random.randint(2, 5)
